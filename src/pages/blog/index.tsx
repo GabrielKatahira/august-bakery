@@ -4,6 +4,7 @@ import Footer from '../../components/footer';
 import BlogPostCard from '../../components/blogpostcard';
 import { blogPosts } from '../../assets/posts';
 
+
 function Blog() {
     return(<>
         <div className={styles.blog}>
