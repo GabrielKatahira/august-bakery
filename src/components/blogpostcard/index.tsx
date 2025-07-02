@@ -5,14 +5,15 @@ interface BlogPostProps {
     title:string,
     subtitle?:string,
     imageUrl:string,
-    slug:string
+    slug:string,
+    imagedesc:string
 }
 
-const BlogPostCard:React.FC<BlogPostProps> = ({title,subtitle,imageUrl,slug}) => {
+const BlogPostCard:React.FC<BlogPostProps> = ({title,subtitle,imageUrl,slug,imagedesc}) => {
     const navigate = useNavigate();
     return(<>
         <div id={styles.post}>
-            <img src={imageUrl} onClick={() => navigate(`/blog/${slug}`)}/>
+            <img src={imageUrl} onClick={() => navigate(`/blog/${slug}`)} alt={imagedesc}/>
             <div>
                 <h1>{title}</h1>
                 <h2>{subtitle}</h2>

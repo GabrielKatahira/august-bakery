@@ -14,7 +14,7 @@ function Blog() {
             </div>
             <div id={styles.bloggrid}>
                 {blogPosts.map((post) => (
-                    <BlogPostCard title={post.title} imageUrl={post.image} subtitle={post.subtitle} slug={post.slug}/>
+                    <BlogPostCard title={post.title} imageUrl={post.image} subtitle={post.subtitle} slug={post.slug} imagedesc={post.alt}/>
                 ))}
             </div>
             <Footer/>

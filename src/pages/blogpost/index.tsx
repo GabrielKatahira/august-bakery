@@ -17,7 +17,7 @@ function BlogPost() {
                 <img src={logo} onClick={()=>navigate('/')}/>
                 <div/>
             </div>
-            <img src={post?.image}/>
+            <img src={post?.image} alt={post?.alt}/>
             <div id={styles.postcontent}>
                 <h1>{post?.title}</h1>
                 <h2>{post?.subtitle}</h2>

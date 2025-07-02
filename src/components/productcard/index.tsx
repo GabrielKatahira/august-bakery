@@ -22,7 +22,7 @@ const ProductCard : React.FC<ProductProps> = ({name,image,description,sizes,pric
     
     return (<div id={styles.productcard}>
         <div id={styles.image}>
-            <img src={image}/>
+            <img src={image} alt={name}/>
         </div>
         <div id={styles.title}>
             <h1>{name}</h1>

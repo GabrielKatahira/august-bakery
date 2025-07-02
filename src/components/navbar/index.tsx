@@ -9,7 +9,7 @@ function NavBar() {
         <>
             <div id={styles.header}>
                 <Link to='/'>
-                    <img alt="logo" src={logo} id={styles.logo}></img>
+                    <img alt="August Bakery" src={logo} id={styles.logo} ></img>
                 </Link>
                 <div id={styles.headerlinks}>
                     <HeaderLink link='/' icon="fa-solid fa-house-chimney fa-2x" title='Home'/> 

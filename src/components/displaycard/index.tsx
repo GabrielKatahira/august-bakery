@@ -9,7 +9,7 @@ interface DisplayCardProps {
 const DisplayCard : React.FC<DisplayCardProps> = ({name,image,price}) => {
     return(
         <div id={styles.displaycard}>
-            <img src={image} alt=''/>
+            <img src={image} alt={name}/>
             <h2>{name}</h2><br/>           
             <h3>${price}</h3><br/>
             <div>Add to Cart <i className='fa-solid fa-cart-plus'/></div>

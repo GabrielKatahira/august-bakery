@@ -6,6 +6,7 @@ export interface BlogPost {
     image:string;
     content:string;
     creator:string;
+    alt:string;
 }
 
 import post1 from './posts/post1.txt?raw';
@@ -24,7 +25,8 @@ export const blogPosts :BlogPost[] = [
         subtitle:"And why that's a good thing",
         creator:'Some Guy',
         content: post1,
-        image:img1
+        image:img1,
+        alt:"French Bread"
     },
     {
         id:2,
@@ -32,7 +34,8 @@ export const blogPosts :BlogPost[] = [
         slug: 'the-secret-to-a-perfect-crust',
         creator:'Some Girl',
         content: post2,
-        image:img2
+        image:img2,
+        alt:"Melted Cheese"
     },
     {
         id:3,
@@ -41,7 +44,8 @@ export const blogPosts :BlogPost[] = [
         slug: 'what-makes-a-good-sandwich',
         creator:'Some Person',
         content: post3,
-        image:img3
+        image:img3,
+        alt:"Onion Bread Buns"
     },
     {
         id:4,
@@ -50,6 +54,7 @@ export const blogPosts :BlogPost[] = [
         slug: 'bread-for-the-day-ahead',
         creator:'Some Individual',
         content: post4,
-        image:img4
+        image:img4,
+        alt:'Grilled Cheese'
     },
 ]

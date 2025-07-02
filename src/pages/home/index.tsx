@@ -25,7 +25,7 @@ function Home() {
           <h1>50 Years of Experience</h1>
           <div>
             <p>Since 1967, we've brought the best of the oven straight to your home. A recipe passed down through generations, perfected by every hand that's touched it.</p>
-            <img src={descimg} />
+            <img src={descimg} alt='French Bread'/>
           </div>
         </div>
         <div id={styles.productdisplay}>
