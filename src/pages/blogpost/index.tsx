@@ -14,7 +14,7 @@ function BlogPost() {
         <div className={styles.blogpost}>
             <div id={styles.return}>
                 <Link to='/blog'>{'< '}Return to Blog</Link>
-                <img src={logo} onClick={()=>navigate('/')}/>
+                <img src={logo} onClick={()=>navigate('/')} alt="August Bakery"/>
                 <div/>
             </div>
             <img src={post?.image} alt={post?.alt}/>
