@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Judson";
+
+}
+:root{
+    --primary:#DAD1C3;
+    --secondary: #A69385;
+    --secondary-dark: #74665d;
+    --secondary-darker: #504741;  
+    --secondary-darkerer: #2e2926;   
+    --white: #d9d9d9;
+    
+}

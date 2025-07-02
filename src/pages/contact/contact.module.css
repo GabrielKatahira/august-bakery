@@ -1,0 +1,95 @@
+#hero {
+    width: 100%;
+    background-image: url('../../assets/hero.jpg');
+    height: 240px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    background-color: rgba(0, 0, 0, 50%);
+    background-blend-mode: overlay;
+    background-position: center;
+}
+#hero>h1 {
+    color: var(--white);
+    font-size: 3.2em;
+}
+.contact {
+    background-color: var(--primary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact>p {
+    width: 50vw;
+    text-align: center;
+    font-size: 1.2em;
+}
+.contact h4 {
+    margin: 0;
+}
+.contact a {
+    color: inherit;
+}
+.contact form {
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    margin-top: 50px;
+}
+.contact form>section {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.contact label {
+    margin-right: 10px;
+    font-size: 1.2em;
+}
+
+.contact input {
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    font-size: 1em;
+    border-radius: 20px;
+    padding: 12px;
+    font-family: inherit;
+}
+.contact textarea {
+    width: 100%;
+    font-family: inherit;
+    min-height: 30vh;
+    columns: 4;
+    resize: vertical;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    font-size: 1em;
+    border-radius: 20px;
+    padding: 12px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.contact button {
+    width: 20%;
+    padding: 20px;
+    font-family: inherit;
+    border: none;
+    outline: none;
+    background-color: var(--secondary);
+    color: var(--white);
+    border-radius: 30px;
+    margin-bottom: 50px;
+    font-size: 1em;
+    align-self: flex-end;
+    transition: .5s;
+}
+.contact button:hover {
+    background-color: var(--secondary-dark);
+    cursor: pointer;
+}

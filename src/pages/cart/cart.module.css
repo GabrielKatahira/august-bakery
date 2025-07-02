@@ -1,0 +1,80 @@
+#hero {
+    width: 100%;
+    background-image: url('../../assets/hero.jpg');
+    height: 240px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    background-color: rgba(0, 0, 0, 50%);
+    background-blend-mode: overlay;
+    background-position: center;
+}
+#hero>h1 {
+    color: var(--white);
+    font-size: 3.2em;
+}
+.cart {
+    background-color: var(--primary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cart>ul {
+    list-style: none;
+    width: 80%;
+    padding: 0;
+    margin-top: 50px;
+}
+.cart>ul>li {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.cart>ul>li>p {
+    font-size: 1.3em;
+    margin: 0;
+    width: max-content;
+    font-weight: 600;
+    white-space: nowrap;
+}
+.cart>ul>li>p>i {
+    cursor: pointer;
+}
+#dots {
+    border-bottom: 3px dotted #000;
+    width: 100%;
+    transform: translate(0,-25%);
+}
+#dotstotal {
+    border-bottom: 3px dotted var(--secondary-dark);
+    width: 100%;
+    transform: translate(0,-35%);
+}
+#total {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    color: var(--secondary-dark);
+    font-size: 1.6em;
+    font-weight: 700;
+}
+#orderbtn {
+    margin-bottom: 50px;
+    border:none;
+    outline: none;
+    border-radius: 30px;
+    background-color: var(--secondary);
+    color: var(--white);
+    padding: 20px;
+    font-size: 1.4em;
+    font-weight: 400;
+    cursor: pointer;
+    transition: .5s;
+    font-family: inherit;
+}
+#orderbtn:hover {
+    background-color: var(--secondary-dark);
+}

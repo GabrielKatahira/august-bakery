@@ -1,0 +1,50 @@
+#post {
+    background-color: var(--white);
+    padding: 20px;
+    border-radius: 30px;
+    width: 80vw;
+    display: flex;
+    justify-content: flex-start;
+    margin: 2vh;
+}
+#post>img {
+    width: 30%;
+    height: 15vh;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 16px;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.6);
+    margin-right: 3vw;
+    transition: .5s;
+}
+#post>img:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 30px 0px rgba(0,0,0,1);
+    filter:brightness(.8)
+}
+#post h1 {
+    font-size: 1.5em;
+    margin: 0;
+}
+#post h2 {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    color: var(--secondary-dark)
+}
+#post a {
+    font-family: inherit;
+    border: none;
+    outline: none;
+    font-size: 1.05em;
+    background-color: var(--secondary);
+    color: var(--white);
+    padding: 10px;
+    border-radius: 15px;
+    transition: .5s;
+    text-decoration: none;
+}
+#post a:hover {
+    background-color: var(--secondary-dark);
+    cursor: pointer;
+}

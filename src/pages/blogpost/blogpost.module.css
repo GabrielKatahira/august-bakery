@@ -1,0 +1,60 @@
+.blogpost {
+    background-color: var(--primary);
+}
+
+#return {
+    width: 100vw;
+    height: 12vh;
+    background-image:url('../../assets/hero.jpg');
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 70%);
+    background-blend-mode: overlay;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#return a {
+    color: var(--white);
+    text-decoration: inherit;
+    font-weight: 600;
+}
+#return img {
+    height: 100%;
+}
+#return img:hover {
+    cursor: pointer;
+}
+#return a:hover {
+    text-decoration: underline;
+}
+.blogpost>img {
+    width: 100vw;
+    height: 60vh;
+    object-fit: cover;
+    object-position: center;
+    filter:brightness(0.8)
+}
+#postcontent {
+    width: 100vw;
+    padding: 5vw;
+}
+#postcontent h1 {
+    margin: 0;
+}
+#postcontent h2 {
+    margin: 0;
+    color: var(--secondary-dark);
+    font-size: 1.5em;
+}
+#postcontent h3 {
+    margin: 0;
+    color: var(--secondary-darkerer);
+    margin-bottom: 50px;
+}
+#postcontent p {
+    white-space: pre-wrap;
+    margin: 0;
+    width: 80vw;
+    font-size: 1.2em;
+}

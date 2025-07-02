@@ -1,0 +1,16 @@
+#logo {
+    width: 200px;
+}
+#header {
+    width: 80vw;
+    background-color: var(--primary);
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+}
+
+#header>div {
+    display: flex;
+}

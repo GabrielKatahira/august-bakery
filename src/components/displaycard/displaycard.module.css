@@ -1,0 +1,46 @@
+#displaycard {
+    width: 20vw;
+    height: 370px;
+    background-color: var(--secondary);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#displaycard>img{
+    width: 90%;
+    height: 40%;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-top: 5%;
+}
+#displaycard>h2{
+    margin: 10px 0 0 0;
+    font-size: 1.6em;
+    font-weight: 1000;
+    text-align: center;
+    height: 3em;
+}
+#displaycard>h3 {
+    margin: 0 0 20px 0;
+    font-size: 1.9em;
+    color: var(--secondary-darker)
+}
+#displaycard>div {
+    cursor: pointer;
+    background-color: var(--secondary-dark);
+    border-radius: 30px;
+    width: 80%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6em;
+    font-weight: 700;
+    color: var(--white);
+    transition: .5s;
+}
+
+#displaycard>div:hover {
+    background-color: var(--secondary-darker);
+}
